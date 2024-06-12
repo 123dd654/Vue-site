@@ -4,7 +4,8 @@
 
 ```
 npm install sass
-npm install gasp
+npm install gsap
 
 ```
+
 # Vue-site
