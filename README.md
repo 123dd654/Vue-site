@@ -28,7 +28,6 @@ cd [project_directory]
 ```
 npm install sass
 npm install gsap
-
 ```
 
 03. 프로덕션 빌드
