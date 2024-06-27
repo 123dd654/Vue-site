@@ -60,6 +60,7 @@ import { contactText } from '@/constants'
         white-space: nowrap;
         text-indent: -0.5vw;
         letter-spacing: -0.3vw;
+        color: #fff;
 
         @media (max-width: 800px) {
             display: none;
@@ -68,8 +69,8 @@ import { contactText } from '@/constants'
     .contact__text {
         width: 100%;
         height: 40vh;
-        background-color: var(--black);
-        color: var(--white);
+        background-color: var(--white);
+        color: #3f4d34;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -102,7 +103,7 @@ import { contactText } from '@/constants'
             display: block;
             width: 100%;
             height: 1px;
-            background-color: var(--black);
+            background-color: var(--white);
             margin-bottom: 0.5vw;
 
             &:nth-child(1) {

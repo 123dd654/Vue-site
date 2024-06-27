@@ -37,6 +37,7 @@ import { siteText } from '@/constants/index'
 
 .site__inner {
     padding: 16px;
+    background-color: #3f4d34;
 
     .site__title {
         position: sticky;
@@ -50,8 +51,9 @@ import { siteText } from '@/constants/index'
         font-family: var(--mainKor-font);
         text-transform: uppercase;
         color: var(--black100);
-        border-bottom: 0.4vw solid var(--black100);
+        border-bottom: 0.4vw solid var(--white);
         margin-bottom: 100px;
+        color: #fff;
 
         @media (max-width: 800px) {
             width: 100%;

@@ -69,9 +69,10 @@ export default {
         font-family: var(--mainKor-font);
         text-transform: uppercase;
         color: var(--black100);
-        border-bottom: 0.4vw solid var(--black100);
+        border-bottom: 0.4vw solid var(--white);
         margin-bottom: 16px;
         text-indent: -0.26vw;
+        color: #fff;
 
         em {
             font-size: 1.25rem;
